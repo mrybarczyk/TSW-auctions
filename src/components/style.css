@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.from-you {
+  color: blue;
+}
+
+.from-smn {
+  color: red;
+}
+
+#history {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 10em;
+  overflow: scroll;
+}
+
+.chat-window {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  outline: none;
+}
+
+.btn2 {
+  font-family: "Cormorant Garamond", serif;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  min-width: 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.form-control {
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (min-width: 550px) {
+  .nav .btn2 {
+    font-family: "Cormorant Garamond", serif;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    min-width: 25%;
+    max-width: 25%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .nav .btn3 {
+    font-family: "Cormorant Garamond", serif;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    min-width: 10%;
+    max-width: 10%;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav .btn2 {
+    font-family: "Cormorant Garamond", serif;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    min-width: 75%;
+    max-width: 75%;
+    margin: 5px;
+    padding: 5px;
+  }
+  .nav .btn3 {
+    font-family: "Cormorant Garamond", serif;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    min-width: 10%;
+    max-width: 10%;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+.nav {
+  background-color: #000033;
+  border-radius: 25px;
+}
+
+.nav a {
+  font-weight: bold;
+  color: black;
+}
+
+.nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+.app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button.page-link {
+  color: #42b983;
+  background-color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: black;
+}
+/*# sourceMappingURL=style.css.map */
