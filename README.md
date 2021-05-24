@@ -2,7 +2,8 @@
 Importing a university project. JavaScript auction-house app, similar to allegro.pl or ebay
 
 Two important files not included: key.pem and cert.pem (security reasons). If you switch from https to http (little changes required in index.js file) it'll run without them. 
-Or you can just generate your own and add them to the main folder, you can find an instruction to generating those online.
+
+Or you can just generate your own key.pem and cert.pem and add them to the main folder, you can find instructions to generating those online.
 
 Running:
 1. npm run install
