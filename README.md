@@ -10,4 +10,4 @@ Running:
 2. npm run build (optional beucase built files are included)
 3. npm run server
 
-Server starts at port 25565, but feel free to change that for a test run.
+Server starts at port 25565, but feel free to change that for a test run. test
