@@ -16,8 +16,8 @@ const sessionStore = new MongoStore({
     mongooseConnection: mongoose.connection
 });
 const options = {
-    key: fs.readFileSync('key.pem'),
-    cert: fs.readFileSync('cert.pem')
+    key: fs.readFileSync('my.key'),
+    cert: fs.readFileSync('my.crt')
   };
 app.use(session({
     store: sessionStore,
